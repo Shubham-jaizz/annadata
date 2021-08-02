@@ -1,6 +1,15 @@
 *{
     box-sizing: content-box;
 }
+#title{
+    position: absolute;
+    top: 40px;
+    right: 600px;
+    font-weight:900;
+    font-size: xx-large;
+    font-stretch: expanded;
+
+}
 body header nav a{
        
        text-decoration: none;
@@ -22,5 +31,36 @@ nav a:visited{
     color: aquamarine;
 }
 #logo{
+    position:relative;
+    top: 8px;
     clip-path: circle(36.2% at 50% 50%);
+}
+aside{
+    width:200px;
+    height:400px;
+    padding:5px;
+    border:10px solid;
+    border-radius: 20px;
+    border-color: brown;
+}
+.container{
+    box-sizing:border-box;
+    height:1300px;
+    margin: 40px;
+    overflow:scroll;
+}
+main{
+    box-sizing: content-box;
+    width:1000px;
+    padding:15px;
+    border:10px;
+    height: min-content;
+    position:absolute;
+    left:400px;
+    top:700px;
+
+    -webkit-box-align: end;
+    
+    
+    
 }
