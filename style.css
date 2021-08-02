@@ -1,3 +1,6 @@
+*{
+    box-sizing: content-box;
+}
 body header nav a{
        
        text-decoration: none;
@@ -17,4 +20,7 @@ nav a:hover{
 }
 nav a:visited{
     color: aquamarine;
+}
+#logo{
+    clip-path: circle(36.2% at 50% 50%);
 }
